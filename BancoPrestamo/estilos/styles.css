@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilo menu */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-size: 18px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 10px 0px;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.menu a:hover {
+    border-bottom-color: #fff;
+}
+
+
+/* Estilo de las secciones */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+#registro {
+    background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+#clientes {
+    background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+#contacto {
+    background-color: #f7f7f7;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+span {
+    color: rgb(0, 9, 170);
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenido img {
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+.contenido h2 {
+    font-size: 50px;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido p {
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion {
+    font-size: 20px;
+}
+
+
+/* Estilo Clientes */
+#clientes h2 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#clientes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+#clientes .contenido {
+    padding: 0 90px;
+}
+
+#clientes table th, #clientes table td {
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#clientes table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+#clientes table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#clientes table tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+#clientes table tbody tr:hover {
+    background-color: #ccc;
+}
+
+#clientes table button {
+    background-color: rgb(0, 76, 255);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#clientes table button:hover {
+    background-color: rgb(0, 31, 132);
+}
+
+#clientes table td button {
+    margin: 0 auto;
+    display: block;
+}
+
+#clientes form {
+    display: inline-block;
+    margin: 0;
+    padding: 6px;
+}
+
+
+/* Estilo del formulario de registro y contacto */
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.formulario {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    height: 150px;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    clear: both;
+}
